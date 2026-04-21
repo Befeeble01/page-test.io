@@ -23,7 +23,7 @@ jobs:
       - name: Build artifact
         run: |
           mkdir -p dist
-          cp -R main.html dist/
+          cp main.html dist/index.html
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
